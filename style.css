@@ -1,0 +1,107 @@
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #20e5e8; /* Verde da bandeira brasileira */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menu de opções de livros */
+#menu-livros {
+    text-align: center;
+    padding: 20px;
+    background-color: #36fff2;
+}
+
+#menu-livros h2 {
+    margin-bottom: 20px;
+}
+
+#menu-livros ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+#menu-livros ul li a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #002776;
+    font-weight: bold;
+}
+
+/* Seção de livros */
+#livros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.livro {
+    background-color: #36fff2; /* Amarelo da bandeira brasileira */
+    border: 2px solid #002776; /* Azul da bandeira brasileira */
+    border-radius: 10px;
+    width: 220px;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.livro h2 {
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.livro img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.livro p {
+    font-size: 1em;
+    color: #002776;
+}
+
+/* Rodapé */
+footer {
+    background-color: #002776;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px;
+}
